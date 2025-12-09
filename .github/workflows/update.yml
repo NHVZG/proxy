@@ -45,8 +45,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          # if git diff --quiet uploads/datiya-clash.yaml; then
-          if [ ! -f uploads/datiya-clash.yaml ] || ! git diff --quiet uploads/datiya-clash.yaml; then
+          if git diff --quiet uploads/datiya-clash.yaml; then
+          # if [ ! -f uploads/datiya-clash.yaml ] || ! git diff --quiet uploads/datiya-clash.yaml; then
             echo "⚠️ 配置文件无变化，跳过提交"
             exit 0
           fi
