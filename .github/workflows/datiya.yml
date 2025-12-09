@@ -1,8 +1,9 @@
-name: Update Config
+name: Update Datiya Config
 
 on:
   schedule:
-    - cron: '0 6,22 * * *'  # 每天早上 6 点，12点（北京时间）自动运行
+    - cron: "0 22 * * *"  # 北京 06:00
+    - cron: "0 14 * * *"  # 北京 22:00
   workflow_dispatch:  # 允许手动触发
 
 jobs:
