@@ -1,0 +1,58 @@
+name: Update Clashfree Config
+
+on:
+  schedule:
+    - cron: '0 6,22 * * *'  # 每天早上 6 点，12点（北京时间）自动运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 确保 uploads 目录存在
+        run: mkdir -p uploads
+
+      - name: 整合 Clash 配置
+        run: |
+          RAW_URL="https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md"
+          TARGET_DIR="uploads"
+          TEMPLATE="subscribe.yaml"
+          
+          echo "[1/3] 读取 README文件"
+          README_CONTENT=$(curl -sL "$RAW_URL")
+          
+          echo "[2/3] 解析yaml文件地址"
+          mapfile -t URLS < <(echo "$README_CONTENT" | grep -Eo '(http|https)://[^ )"]+\.(yaml|yml)')
+          if [ ${#URLS[@]} -lt 0 ]; then
+            echo "⚠️ 配置不到配置，退出"
+            exit 0
+          fi
+          
+          echo "[3/3] parse配置"
+          ALL_CONTENT=""
+          i=1
+          for URL in "${URLS[@]}"; do
+            PROVIDER="  ${i}.clashfree:\n    type: http\n    path: ./proxy_provider/clashfree${i}.yaml\n    url: ${URL}\n    interval: 21600\n    override: \n      additional-prefix: \"${i} |\"\n"
+            ALL_CONTENT="${ALL_CONTENT}${PROVIDER}"
+            ((i++))
+          done
+
+          OUT="$TARGET_DIR/clashfree.yaml"
+          sed "s#__URL__#$ALL_CONTENT#g" "$TEMPLATE" > "$OUT"
+          echo "整合配置完成"
+          
+      - name: 提交更新（仅当文件有变更）
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          if git diff --quiet uploads/clashfree.yaml; then
+            echo "⚠️ 配置文件无变化，跳过提交"
+            exit 0
+          fi
+          git add uploads/clashfree.yaml
+          git commit -m "更新配置文件: $(date +'%Y-%m-%d')"
+          git push
