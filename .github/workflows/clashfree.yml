@@ -42,7 +42,7 @@ jobs:
             ((i++))
           done
 
-          OUT="$TARGET_DIR/clashfree.yaml"
+          OUT="$TARGET_DIR/clashfree.yml"
           sed "s#__URL__#$ALL_CONTENT#g" "$TEMPLATE" > "$OUT"
           echo "整合配置完成"
           
