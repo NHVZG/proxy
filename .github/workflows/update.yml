@@ -1,4 +1,4 @@
-name: Update cConfig
+name: Update Config
 
 on:
   schedule:
