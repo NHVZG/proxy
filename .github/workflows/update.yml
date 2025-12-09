@@ -46,11 +46,12 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           # if git diff --quiet uploads/datiya-clash.yaml; then
-          if [ ! -f uploads/datiya-clash.yaml ] && [! git diff --quiet uploads/datiya-clash.yaml]; then
+          if [ ! -f uploads/datiya-clash.yaml ] || [! git diff --quiet uploads/datiya-clash.yaml]; then
+            git add uploads/datiya-clash.yaml uploads/datiya-v2ray.txt
+            git commit -m "更新配置文件: $(date +'%Y-%m-%d')"
+            git push  
+          else
             echo "⚠️ 配置文件无变化，跳过提交"
             exit 0
           fi
-          git add uploads/datiya-clash.yaml uploads/datiya-v2ray.txt
-          git commit -m "更新配置文件: $(date +'%Y-%m-%d')"
-          git push  
           
