@@ -21,7 +21,7 @@ jobs:
         run: |
           RAW_URL="https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md"
           TARGET_DIR="uploads"
-          TEMPLATE="subscribe.yaml"
+          TEMPLATE="subscribe.yml"
           
           echo "[1/3] 读取 README文件"
           README_CONTENT=$(curl -sL "$RAW_URL")
