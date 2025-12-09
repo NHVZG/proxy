@@ -37,7 +37,7 @@ jobs:
           ALL_CONTENT=""
           i=1
           for URL in "${URLS[@]}"; do
-            PROVIDER="  ${i}.clashfree:\n    type: http\n    path: ./proxy_provider/clashfree${i}.yaml\n    url: ${URL}\n    interval: 21600\n    override: \n      additional-prefix: \"${i} |\"\n"
+            PROVIDER="  p${i}:\n    type: http\n    path: ./proxy_provider/p${i}.yaml\n    url: ${URL}\n    interval: 21600\n    override: \n      additional-prefix: \"p${i} |\"\n"
             ALL_CONTENT="${ALL_CONTENT}${PROVIDER}"
             ((i++))
           done
