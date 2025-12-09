@@ -1,1 +1,135 @@
+proxy-providers:
+  1.clashfree:
+    type: http
+    path: ./proxy_provider/clashfree1.yaml
+    url: https://clashfree.github.io/uploads/2025/12/0-20251203.yaml
+    interval: 21600
+    override: 
+      additional-prefix: "1 |"
+  2.clashfree:
+    type: http
+    path: ./proxy_provider/clashfree2.yaml
+    url: https://clashfree.github.io/uploads/2025/12/1-20251203.yaml
+    interval: 21600
+    override: 
+      additional-prefix: "2 |"
+  3.clashfree:
+    type: http
+    path: ./proxy_provider/clashfree3.yaml
+    url: https://clashfree.github.io/uploads/2025/12/2-20251203.yaml
+    interval: 21600
+    override: 
+      additional-prefix: "3 |"
+  4.clashfree:
+    type: http
+    path: ./proxy_provider/clashfree4.yaml
+    url: https://clashfree.github.io/uploads/2025/12/3-20251203.yaml
+    interval: 21600
+    override: 
+      additional-prefix: "4 |"
+  5.clashfree:
+    type: http
+    path: ./proxy_provider/clashfree5.yaml
+    url: https://clashfree.github.io/uploads/2025/12/4-20251203.yaml
+    interval: 21600
+    override: 
+      additional-prefix: "5 |"
 
+
+# Global Config
+mixed-port: 7897
+allow-lan: true
+mode: rule
+global-ua: clash-verge/v2.2.3
+geodata-mode: true
+geodata-loader: standard
+unified-delay: true
+log-level: warning
+ipv6: true
+external-controller: 127.0.0.1:9090
+tcp-concurrent: true
+enable-process: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+keep-alive-interval: 15
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  asn: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb"
+profile:
+  store-selected: true
+  store-fake-ip: true
+tun:
+  enable: false
+  # device: ClashVergeREV
+  stack: 
+  mtu: 1500
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+  auto-route: true
+  auto-detect-interface: true
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - 114.114.114.114
+    - system
+  fake-ip-filter:
+    - "*"
+    - "+.lan"
+    - "connect.rom.miui.com"
+    - "+.miwifi.com"
+    - "+.ntp.org"
+    - "+.u-tools.cn"
+    - "+.mediatek.com"
+    - "+.cfprefer1.xyz"
+    - "+.wetab.link"
+    - "+.tyasaka.xyz"
+    # QQ
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    # WeChat
+    - "localhost.work.weixin.qq.com"
+    - "+.weixin.qq.com"
+    - "+.wechat.com"
+    # Windows
+    - "time.windows.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.wpsmail.net"
+    - "+.henzanapp.com"
+    - "+.pconline.com.cn"
+proxy-groups:
+  - name: 手动选择
+    type: select
+    proxies: [DIRECT,自动选择]
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+    max-failed-times: 5
+    include-all: true
+  - name: 自动选择
+    type: url-test
+    proxies: [DIRECT]
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+    max-failed-times: 5
+    include-all: true
+rules:
+  - GEOSITE,CN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,手动选择
