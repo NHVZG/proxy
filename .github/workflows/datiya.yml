@@ -20,6 +20,10 @@ jobs:
       - name: 获取最新 Clash & V2Ray 配置
         run: |
           TODAY=$(date +"%Y%m%d")
+          HOUR=$(date +"%H")
+          if [ "$current_hour" = "22" ]; then
+            TODAY=$(date -d "+1 day" +"%y%m%d")
+          fi
           CLASH_LATEST_URL="https://free.datiya.com/uploads/${TODAY}-clash.yaml"
           V2RAY_LATEST_URL="https://free.datiya.com/uploads/${TODAY}-v2ray.txt"
           CLASH_SAVE_PATH="uploads/datiya-clash.yaml"
