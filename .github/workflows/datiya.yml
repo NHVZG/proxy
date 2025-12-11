@@ -21,7 +21,7 @@ jobs:
         run: |
           TODAY=$(date +"%Y%m%d")
           HOUR=$(date +"%H")
-          if [ "$current_hour" = "22" ]; then
+          if [ "$HOUR" = "22" ]; then
             TODAY=$(date -d "+1 day" +"%y%m%d")
           fi
           CLASH_LATEST_URL="https://free.datiya.com/uploads/${TODAY}-clash.yaml"
