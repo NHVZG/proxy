@@ -1,0 +1,60 @@
+name: Update node.freeclashnode.com Config
+
+on:
+  schedule:
+    - cron: "0 22 * * *"  # 北京 06:00
+    - cron: "0 14 * * *"  # 北京 22:00
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 确保 uploads 目录存在
+        run: mkdir -p uploads
+
+      - name: 整合 Clash 配置
+        run: |
+          TODAY=$(date +"%Y%m%d")
+          YEAR=$(date +"%Y")
+          MONTH=$(date + "%m")
+          if [ "$HOUR" = "22" ]; then
+            TODAY=$(date -d "+1 day" +"%y%m%d")
+          fi
+          URLS=(
+            "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/0-${TODAY}.yaml"
+            "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/1-${TODAY}.yaml"
+            "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/2-${TODAY}.yaml"
+            "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/3-${TODAY}.yaml"
+            "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/4-${TODAY}.yaml"
+            "https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash${TODAY}.yml"
+          )
+          
+          echo "[3/3] parse配置"
+          ALL_CONTENT=""
+          i=1
+          for URL in "${URLS[@]}"; do
+            PROVIDER="  p${i}:\n    type: http\n    path: ./proxy_provider/p${i}.yaml\n    url: ${URL}\n    interval: 21600\n    override: \n      additional-prefix: \"p${i} |\"\n"
+            ALL_CONTENT="${ALL_CONTENT}${PROVIDER}"
+            ((i++))
+          done
+
+          OUT="$TARGET_DIR/freeclashnode.yml"
+          sed "s#__URL__#$ALL_CONTENT#g" "$TEMPLATE" > "$OUT"
+          echo "整合配置完成"
+          
+      - name: 提交更新（仅当文件有变更）
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          if git diff --quiet uploads/freeclashnode.yml; then
+            echo "⚠️ 配置文件无变化，跳过提交"
+            exit 0
+          fi
+          git add uploads/freeclashnode.yml
+          git commit -m "更新配置文件: $(date +'%Y-%m-%d')"
+          git push
