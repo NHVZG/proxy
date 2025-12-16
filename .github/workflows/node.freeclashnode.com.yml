@@ -21,7 +21,7 @@ jobs:
         run: |
           TODAY=$(date +"%Y%m%d")
           YEAR=$(date +"%Y")
-          MONTH=$(date + "%m")
+          MONTH=$(date +"%m")
           if [ "$HOUR" = "22" ]; then
             TODAY=$(date -d "+1 day" +"%y%m%d")
           fi
