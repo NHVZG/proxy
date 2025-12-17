@@ -27,6 +27,7 @@ jobs:
           if [ "$HOUR" = "22" ]; then
             TODAY=$(date -d "+1 day" +"%y%m%d")
           fi
+          echo 获取时间："$TODAY"
           URLS=(
             "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/0-${TODAY}.yaml"
             "https://node.freeclashnode.com/uploads/${YEAR}/${MONTH}/1-${TODAY}.yaml"
