@@ -22,6 +22,7 @@ jobs:
           TODAY=$(date +"%Y%m%d")
           YEAR=$(date +"%Y")
           MONTH=$(date +"%m")
+          HOUR=$(date +"%H")
           TARGET_DIR="uploads"
           TEMPLATE="subscribe.yml"
           if [ "$HOUR" = "22" ]; then
