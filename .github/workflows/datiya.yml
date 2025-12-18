@@ -55,5 +55,5 @@ jobs:
             exit 0
           fi
           git add uploads/datiya-clash.yaml uploads/datiya-v2ray.txt
-          git commit -m "更新配置文件: $(date +'%Y-%m-%d')"
+          git commit -m "更新配置文件: $TODAY"
           git push
