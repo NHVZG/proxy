@@ -2,42 +2,42 @@ proxy-providers:
   p1:
     type: http
     path: ./proxy_provider/p1.yaml
-    url: https://node.freeclashnode.com/uploads/2025/12/0-20251229.yaml
+    url: https://node.freeclashnode.com/uploads/2025/12/0-251230.yaml
     interval: 21600
     override: 
       additional-prefix: "p1 |"
   p2:
     type: http
     path: ./proxy_provider/p2.yaml
-    url: https://node.freeclashnode.com/uploads/2025/12/1-20251229.yaml
+    url: https://node.freeclashnode.com/uploads/2025/12/1-251230.yaml
     interval: 21600
     override: 
       additional-prefix: "p2 |"
   p3:
     type: http
     path: ./proxy_provider/p3.yaml
-    url: https://node.freeclashnode.com/uploads/2025/12/2-20251229.yaml
+    url: https://node.freeclashnode.com/uploads/2025/12/2-251230.yaml
     interval: 21600
     override: 
       additional-prefix: "p3 |"
   p4:
     type: http
     path: ./proxy_provider/p4.yaml
-    url: https://node.freeclashnode.com/uploads/2025/12/3-20251229.yaml
+    url: https://node.freeclashnode.com/uploads/2025/12/3-251230.yaml
     interval: 21600
     override: 
       additional-prefix: "p4 |"
   p5:
     type: http
     path: ./proxy_provider/p5.yaml
-    url: https://node.freeclashnode.com/uploads/2025/12/4-20251229.yaml
+    url: https://node.freeclashnode.com/uploads/2025/12/4-251230.yaml
     interval: 21600
     override: 
       additional-prefix: "p5 |"
   p6:
     type: http
     path: ./proxy_provider/p6.yaml
-    url: https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash20251229.yml
+    url: https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash251230.yml
     interval: 21600
     override: 
       additional-prefix: "p6 |"
