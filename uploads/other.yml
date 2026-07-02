@@ -136,65 +136,9 @@ proxies:
   port: 443
   server: 198.98.53.130
   type: ss
-- cipher: aes-256-gcm
-  name: 192.142.18.127:443
-  password: c1fd0b29-6c18-4042-87a2-f5bd7878dc0a
-  port: 443
-  server: 192.142.18.127
-  type: ss
-- cipher: aes-256-gcm
-  name: 192.142.18.127:443 2
-  password: e2949272-400e-4ef1-8657-6c2a994e5434
-  port: 443
-  server: 192.142.18.127
-  type: ss
-- cipher: aes-256-gcm
-  name: 192.142.18.127:443 3
-  password: d2890c8f-8d15-42b7-80e3-687fab8b2c7a
-  port: 443
-  server: 192.142.18.127
-  type: ss
-- cipher: aes-256-gcm
-  name: 192.142.18.127:443 4
-  password: 7ad7df5a-23bd-459b-9bef-c428f26fff4a
-  port: 443
-  server: 192.142.18.127
-  type: ss
 - alterId: 0
   cipher: auto
   name: youneed.win
-  port: 18000
-  server: 67.220.85.46
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: youneed.win 2
-  port: 443
-  server: 165.140.216.141
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: youneed.win 3
-  port: 22324
-  server: 67.220.72.237
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: youneed.win 4
-  port: 18000
-  server: 67.220.95.3
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: youneed.win 5
   port: 180
   server: 82.198.246.37
   tls: false
@@ -202,7 +146,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: youneed.win 6
+  name: youneed.win 2
   port: 18000
   server: 84.17.41.2
   tls: false
@@ -210,7 +154,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 7
+  name: youneed.win 3
   network: ws
   port: 39495
   server: 129.146.77.248
@@ -221,7 +165,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: youneed.win 8
+  name: youneed.win 4
   port: 18000
   server: 134.195.196.211
   tls: false
@@ -229,7 +173,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 9
+  name: youneed.win 5
   network: ws
   port: 25686
   server: 140.83.51.161
@@ -242,7 +186,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: youneed.win 10
+  name: youneed.win 6
   port: 18000
   server: 169.197.142.22
   tls: false
@@ -250,7 +194,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 11
+  name: youneed.win 7
   port: 22324
   server: 216.106.183.35
   tls: false
@@ -258,7 +202,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: youneed.win 12
+  name: youneed.win 8
   port: 22324
   server: 216.106.185.141
   tls: false
@@ -266,7 +210,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: youneed.win 13
+  name: youneed.win 9
   port: 18000
   server: 23.162.200.198
   tls: false
@@ -274,7 +218,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 14
+  name: youneed.win 10
   port: 18000
   server: 38.91.107.49
   tls: false
@@ -282,7 +226,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 15
+  name: youneed.win 11
   port: 18000
   server: 38.110.1.246
   tls: false
@@ -290,7 +234,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 16
+  name: youneed.win 12
   port: 18000
   server: 38.114.123.42
   tls: false
@@ -298,7 +242,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 17
+  name: youneed.win 13
   port: 443
   server: 140.238.2.250
   tls: false
@@ -306,7 +250,7 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: youneed.win 18
+  name: youneed.win 14
   network: ws
   port: 80
   server: 168.138.43.75
@@ -319,13 +263,45 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: youneed.win 19
+  name: youneed.win 15
   port: 49803
   server: 153.121.73.175
   tls: false
   type: vmess
   uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
 - alterId: 0
+  cipher: auto
+  name: youneed.win 16
+  port: 22324
+  server: 172.104.80.66
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: youneed.win 17
+  port: 48111
+  server: 129.146.143.80
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  cipher: auto
+  name: youneed.win 18
+  port: 18000
+  server: 149.88.23.207
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: youneed.win 19
+  port: 18000
+  server: 149.88.23.202
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 1
   cipher: auto
   name: youneed.win 20
   port: 22324
@@ -336,38 +312,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: youneed.win 21
-  port: 48111
-  server: 129.146.143.80
-  tls: false
-  type: vmess
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- alterId: 0
-  cipher: auto
-  name: youneed.win 22
-  port: 18000
-  server: 149.88.23.207
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: youneed.win 23
-  port: 18000
-  server: 149.88.23.202
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 1
-  cipher: auto
-  name: youneed.win 24
-  port: 22324
-  server: 172.104.80.66
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: youneed.win 25
   port: 35034
   server: 165.154.195.38
   tls: false
@@ -375,7 +319,7 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: youneed.win 26
+  name: youneed.win 22
   port: 18000
   server: 67.220.85.46
   tls: false
@@ -383,23 +327,12 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: youneed.win 27
+  name: youneed.win 23
   port: 18000
   server: 67.220.95.3
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: ip4.vpean2.qzz.io:443
-  network: ws
-  password: rYuChHcwQZskq9E0zdoR
-  port: 443
-  server: ip4.vpean2.qzz.io
-  sni: vpn5.rnmcnm.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn5.rnmcnm.com
-    path: /ws-79dffb8106db
 - name: 104.20.6.134:443
   network: ws
   password: humanity
@@ -422,12 +355,6 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /au-do
-- name: de-1.hysteria.ltd:9443
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  type: trojan
 - name: 45.130.125.126:443 2
   network: ws
   password: 86957ec0-b213-433b-a43b-51f2175e0ec3
@@ -440,41 +367,6 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /au-do
-- name: 46.8.226.197:8443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 46.8.226.197
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 46.8.226.197:8443 2
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 46.8.226.197
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: tjsp.hhxaf.cc.cd:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: tjsp.hhxaf.cc.cd
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 - name: www.multiplydose.com:443
   network: ws
   password: humanity
@@ -496,428 +388,6 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /br-orcl
-- name: 213.35.127.18:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 213.35.127.18
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 8.219.198.57:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 8.219.198.57
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 123.111.169.70:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 123.111.169.70
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 124.156.208.160:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 124.156.208.160
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 139.162.62.195:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 139.162.62.195
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 144.24.94.127:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 144.24.94.127
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 172.104.120.92:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 172.104.120.92
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 172.104.80.248:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 172.104.80.248
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 172.104.81.253:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 172.104.81.253
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 172.104.86.229:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 172.104.86.229
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 199.193.125.72:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 199.193.125.72
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 8.219.134.138:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 8.219.134.138
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 129.154.50.159:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 129.154.50.159
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 94.103.173.70:9443
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: 94.103.173.70
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-- name: 45.38.42.156:2053
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.38.42.156
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 45.38.42.198:2053
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.38.42.198
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 104.253.175.16:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 104.253.175.16
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 38.207.130.242:8443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 38.207.130.242
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 45.77.129.86:2053
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.77.129.86
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 158.180.71.69:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 158.180.71.69
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 146.56.187.1:8443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 146.56.187.1
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 161.118.158.9:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 161.118.158.9
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 158.247.211.170:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 158.247.211.170
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 146.235.16.191:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 146.235.16.191
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 161.118.213.45:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 161.118.213.45
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 207.148.125.245:8443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 207.148.125.245
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 149.28.142.169:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 149.28.142.169
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 66.42.51.60:8443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 66.42.51.60
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 140.245.62.90:2096
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2096
-  server: 140.245.62.90
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 8.219.154.217:8443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 8.219.154.217
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 69.63.212.210:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 69.63.212.210
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 64.186.248.160:443
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 64.186.248.160
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: de-1.hysteria.ltd:9443 2
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-- name: 140.245.62.90:2096 2
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2096
-  server: 140.245.62.90
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 45.38.42.198:2053 2
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.38.42.198
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 45.77.129.86:2053 2
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.77.129.86
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 - name: 119.246.1.143:443
   password: BxceQaOe
   port: 443
@@ -963,793 +433,450 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - ♻️ 自动选择
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 108.181.57.93:8388
-  - 146.235.16.191:443
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - ♻️ 自动选择
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - youneed.win 18
   - youneed.win 15
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 146.235.16.191:443
-  - 108.181.57.93:8388
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - 198.98.53.130:443
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
   - 🔰 节点选择
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - ♻️ 自动选择
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 108.181.57.93:8388
-  - 146.235.16.191:443
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - ♻️ 自动选择
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 - name: ⛔️ 广告拦截
   proxies:
-  - 🎯 全球直连
   - 🛑 全球拦截
   - 🔰 节点选择
+  - 🎯 全球直连
   type: select
 - name: 🚫 运营劫持
   proxies:
-  - 🎯 全球直连
   - 🛑 全球拦截
   - 🔰 节点选择
+  - 🎯 全球直连
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
   - 🔰 节点选择
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - ♻️ 自动选择
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 108.181.57.93:8388
-  - 146.235.16.191:443
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - ♻️ 自动选择
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 - name: 🌏 国内媒体
   proxies:
-  - 🎯 全球直连
   - 🔰 节点选择
+  - 🎯 全球直连
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
   - 🔰 节点选择
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 146.235.16.191:443
-  - 108.181.57.93:8388
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 - name: 📲 电报信息
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
   - 🔰 节点选择
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 146.235.16.191:443
-  - 108.181.57.93:8388
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
   - 🔰 节点选择
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - ♻️ 自动选择
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 108.181.57.93:8388
-  - 146.235.16.191:443
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - ♻️ 自动选择
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1762,114 +889,65 @@ proxy-groups:
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - youneed.win 17
   - 37.19.198.243:443
-  - 46.8.226.197:8443 2
-  - 140.245.62.90:2096 2
-  - 78.159.131.12:28259
-  - 8.219.134.138:443
-  - youneed.win 19
-  - 78.159.131.12:28259 3
-  - youneed.win 21
-  - 193.47.60.186:28687
-  - 140.245.62.90:2096
-  - youneed.win 26
-  - youneed.win 14
-  - youneed.win 18
-  - youneed.win 23
-  - 139.162.62.195:443
-  - 172.104.81.253:443
-  - 46.8.226.197:8443
-  - 141.98.101.181:443
-  - 108.181.121.226:8388
-  - 199.193.125.72:443
-  - 213.35.127.18:443
+  - 104.20.6.134:443
   - youneed.win 20
-  - youneed.win
-  - 149.22.87.240:443
-  - 66.42.51.60:8443
-  - 156.146.38.169:443
-  - 172.104.120.92:443
-  - 🎯 全球直连
+  - 78.159.131.12:28259 2
+  - 102.37.156.224:443
   - www.multiplydose.com:443
-  - 158.247.211.170:443
-  - youneed.win 11
-  - 104.253.175.16:443
-  - youneed.win 13
-  - 45.77.129.86:2053
-  - 158.180.71.69:443
-  - 173.244.56.9:443
+  - 156.146.38.169:443
+  - 119.246.1.143:443
+  - 🎯 全球直连
+  - youneed.win 18
+  - youneed.win 15
+  - youneed.win 4
+  - youneed.win 12
+  - youneed.win 2
+  - 149.22.87.240:443
+  - 198.98.53.130:443
+  - 78.159.131.12:28259
   - 🔰 节点选择
-  - 141.193.213.30:443
-  - 207.148.125.245:8443
+  - 78.159.131.12:28259 4
+  - 109.201.152.181:443
+  - 149.22.87.204:443
+  - 140.174.184.5:8388
   - youneed.win 6
+  - 173.244.56.9:443
   - 45.130.125.126:443
   - 156.146.38.167:443
-  - ♻️ 自动选择
-  - youneed.win 2
-  - 146.56.187.1:8443
-  - 108.181.57.93:8388
-  - 146.235.16.191:443
-  - youneed.win 4
-  - 172.104.86.229:443
-  - 129.154.50.159:443
-  - 8.209.74.72:20001
-  - 172.104.80.248:443
-  - 144.24.94.127:443
-  - youneed.win 25
-  - youneed.win 27
-  - 149.22.95.183:443
-  - 94.156.250.148:7001
-  - youneed.win 8
-  - tjsp.hhxaf.cc.cd:443
-  - 45.38.42.198:2053
-  - 192.142.18.127:443 2
-  - 124.156.208.160:443
-  - 149.28.142.169:443
-  - 45.77.129.86:2053 2
-  - 140.174.184.5:8388
-  - 8.219.154.217:8443
-  - youneed.win 10
-  - youneed.win 12
-  - 109.201.152.181:443
-  - 102.133.165.160:16233
-  - 156.146.38.170:443
-  - 102.37.156.224:443
+  - 141.193.213.30:443
   - 64.94.95.118:57142
-  - 78.159.131.12:28259 2
-  - 198.98.53.130:443
-  - 94.103.173.70:9443
-  - youneed.win 24
-  - 209.46.102.22:8388
-  - 161.118.158.9:443
-  - 123.111.169.70:443
-  - youneed.win 3
-  - 149.22.87.204:443
-  - 45.38.42.198:2053 2
-  - de-1.hysteria.ltd:9443
-  - youneed.win 5
-  - 38.207.130.242:8443
-  - 104.20.6.134:443
-  - ip4.vpean2.qzz.io:443
-  - 192.142.18.127:443
-  - 119.246.1.143:443
-  - de-1.hysteria.ltd:9443 2
-  - 146.70.61.37:8080
-  - 45.38.42.156:2053
-  - youneed.win 9
-  - youneed.win 16
-  - 78.159.131.12:28259 4
-  - 64.186.248.160:443
-  - 192.142.18.127:443 3
+  - 149.22.95.183:443
+  - 8.209.74.72:20001
+  - youneed.win
+  - youneed.win 8
+  - youneed.win 11
+  - youneed.win 19
+  - 108.181.57.93:8388
+  - 108.181.121.226:8388
   - 45.130.125.126:443 2
-  - youneed.win 22
-  - 69.63.212.210:443
-  - 173.244.56.6:443
+  - youneed.win 10
+  - 78.159.131.12:28259 3
+  - youneed.win 5
+  - 146.70.61.37:8080
   - youneed.win 7
-  - 8.219.198.57:443
-  - 192.142.18.127:443 4
-  - youneed.win 15
-  - 161.118.213.45:443
+  - 156.146.38.170:443
+  - ♻️ 自动选择
+  - 193.47.60.186:28687
+  - youneed.win 9
+  - youneed.win 14
+  - youneed.win 16
+  - 173.244.56.6:443
+  - youneed.win 17
+  - youneed.win 23
+  - 102.133.165.160:16233
+  - youneed.win 13
+  - youneed.win 3
+  - 141.98.101.181:443
+  - youneed.win 22
+  - 94.156.250.148:7001
+  - 209.46.102.22:8388
+  - youneed.win 21
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
