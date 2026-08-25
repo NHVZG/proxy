@@ -28,12 +28,6 @@ proxies:
   port: 20001
   server: 8.209.74.72
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 45.77.232.213:15675
-  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
-  port: 15675
-  server: 45.77.232.213
-  type: ss
 - alterId: 0
   cipher: auto
   name: youneed.win
@@ -86,7 +80,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -100,7 +93,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -117,7 +109,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -145,7 +136,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -165,7 +155,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -180,7 +169,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -196,7 +184,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
@@ -221,7 +208,6 @@ proxy-groups:
   - 102.37.156.224:443
   - 102.133.165.160:16233
   - 8.209.74.72:20001
-  - 45.77.232.213:15675
   - youneed.win
   - youneed.win 2
   - youneed.win 3
