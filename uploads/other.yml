@@ -28,187 +28,89 @@ proxies:
   port: 20001
   server: 8.209.74.72
   type: ss
-- name: us.ma-etcs.fun:45669
-  password: bb53b752-bb38-4d86-bb4e-70e808b1bbc8
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: false
-  sni: us.ma-etcs.fun
-  type: trojan
-- name: us.ma-etcs.fun:45669 2
-  password: 6efcede2-2de1-4c2c-a957-0f1623e4c85f
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: false
-  sni: us.ma-etcs.fun
-  type: trojan
-- name: us.ma-etcs.fun:45669 3
-  password: 9c624c62-7c71-4322-b61e-9cde07ece3a5
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: false
-  sni: us.ma-etcs.fun
-  type: trojan
-- name: us.ma-etcs.fun:45669 4
-  password: 4e07783d-6e1e-4b09-90ea-ade12c7a45e2
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: false
-  sni: us.ma-etcs.fun
-  type: trojan
-- name: us.ma-etcs.fun:45669 5
-  password: 53901c6e-8df2-4414-8ec4-22ec9dd8e8ce
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: false
-  sni: us.ma-etcs.fun
-  type: trojan
-- name: us.ma-etcs.fun:45669 6
-  password: f9bd59f8-88b9-4ad4-b07c-4c1ba7c13e87
-  port: 45669
-  server: us.ma-etcs.fun
-  skip-cert-verify: false
-  sni: us.ma-etcs.fun
-  type: trojan
-- name: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  skip-cert-verify: false
-  sni: 152-67-200-82.liao.kdns.fr
-  type: trojan
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 102.37.156.224:443
   - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
+  - 102.37.156.224:443
   - 102.133.165.160:16233
+  - 8.209.74.72:20001
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
-  - 102.37.156.224:443
   - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
+  - 102.37.156.224:443
   - 102.133.165.160:16233
+  - 8.209.74.72:20001
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
+  - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 102.37.156.224:443
   - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
+  - 102.37.156.224:443
   - 102.133.165.160:16233
-  - 🔰 节点选择
+  - 8.209.74.72:20001
   type: select
 - name: ⛔️ 广告拦截
   proxies:
-  - 🔰 节点选择
   - 🛑 全球拦截
   - 🎯 全球直连
+  - 🔰 节点选择
   type: select
 - name: 🚫 运营劫持
   proxies:
-  - 🔰 节点选择
   - 🛑 全球拦截
   - 🎯 全球直连
+  - 🔰 节点选择
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
+  - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 102.37.156.224:443
   - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
+  - 102.37.156.224:443
   - 102.133.165.160:16233
-  - 🔰 节点选择
+  - 8.209.74.72:20001
   type: select
 - name: 🌏 国内媒体
   proxies:
-  - 🔰 节点选择
   - 🎯 全球直连
+  - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
   - 🎯 全球直连
-  - 102.37.156.224:443
-  - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
-  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 146.70.61.37:8080
+  - 102.37.156.224:443
+  - 102.133.165.160:16233
+  - 8.209.74.72:20001
   type: select
 - name: 📲 电报信息
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
-  - 🎯 全球直连
-  - 102.37.156.224:443
-  - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
-  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 🎯 全球直连
+  - 146.70.61.37:8080
+  - 102.37.156.224:443
+  - 102.133.165.160:16233
+  - 8.209.74.72:20001
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
-  - ♻️ 自动选择
-  - 🎯 全球直连
-  - 102.37.156.224:443
-  - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
-  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - 146.70.61.37:8080
+  - 102.37.156.224:443
+  - 102.133.165.160:16233
+  - 8.209.74.72:20001
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -221,20 +123,13 @@ proxy-groups:
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - us.ma-etcs.fun:45669 3
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - us.ma-etcs.fun:45669 6
-  - 8.209.74.72:20001
-  - us.ma-etcs.fun:45669 5
-  - us.ma-etcs.fun:45669
-  - us.ma-etcs.fun:45669 2
-  - ♻️ 自动选择
-  - 🎯 全球直连
-  - 102.37.156.224:443
-  - 146.70.61.37:8080
-  - us.ma-etcs.fun:45669 4
-  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - 146.70.61.37:8080
+  - 102.37.156.224:443
+  - 102.133.165.160:16233
+  - 8.209.74.72:20001
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
