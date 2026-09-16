@@ -4,48 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: sg-2.gsafevpnapi.com:31870
-  password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  port: 31870
-  server: sg-2.gsafevpnapi.com
-  type: ss
-- cipher: aes-256-gcm
-  name: us-2.gsafevpnapi.com:31870
-  password: 5f82dcfd-cab5-4b71-91c6-8b6fb4f76c55
-  port: 31870
-  server: us-2.gsafevpnapi.com
-  type: ss
-- cipher: aes-256-gcm
-  name: sg-2.gsafevpnapi.com:31870 2
-  password: 5f82dcfd-cab5-4b71-91c6-8b6fb4f76c55
-  port: 31870
-  server: sg-2.gsafevpnapi.com
-  type: ss
-- cipher: aes-256-gcm
-  name: jp-2.gsafevpnapi.com:31870
-  password: 5f82dcfd-cab5-4b71-91c6-8b6fb4f76c55
-  port: 31870
-  server: jp-2.gsafevpnapi.com
-  type: ss
-- cipher: aes-256-gcm
-  name: us-2.gsafevpnapi.com:31870 2
-  password: 2bf192f1-7d86-43a3-88b3-8f72b7eb5ad9
-  port: 31870
-  server: us-2.gsafevpnapi.com
-  type: ss
-- cipher: aes-256-gcm
-  name: sg-2.gsafevpnapi.com:31870 3
-  password: 2bf192f1-7d86-43a3-88b3-8f72b7eb5ad9
-  port: 31870
-  server: sg-2.gsafevpnapi.com
-  type: ss
-- cipher: aes-256-gcm
-  name: jp-2.gsafevpnapi.com:31870 2
-  password: 2bf192f1-7d86-43a3-88b3-8f72b7eb5ad9
-  port: 31870
-  server: jp-2.gsafevpnapi.com
-  type: ss
 - cipher: rc4-md5
   name: 138.199.42.68:8080
   password: 14fFPrbezE3HDZzsMOr6
@@ -76,24 +34,6 @@ proxies:
   port: 443
   server: 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103
   type: ss
-- name: sg-3.gsafevpnapi.com:44370
-  password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
-  port: 44370
-  server: sg-3.gsafevpnapi.com
-  sni: www.yahoo.com
-  type: trojan
-- name: sg-3.gsafevpnapi.com:44370 2
-  password: 5f82dcfd-cab5-4b71-91c6-8b6fb4f76c55
-  port: 44370
-  server: sg-3.gsafevpnapi.com
-  sni: www.yahoo.com
-  type: trojan
-- name: sg-3.gsafevpnapi.com:44370 3
-  password: 2bf192f1-7d86-43a3-88b3-8f72b7eb5ad9
-  port: 44370
-  server: sg-3.gsafevpnapi.com
-  sni: www.yahoo.com
-  type: trojan
 - name: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
@@ -104,170 +44,100 @@ proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - 138.199.42.68:8080
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - us-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
+  - 🎯 全球直连
   - 102.37.156.224:443
   - 146.70.61.37:8080
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   - 102.133.165.160:16233
-  - jp-2.gsafevpnapi.com:31870
-  - 🎯 全球直连
-  - ♻️ 自动选择
-  - sg-3.gsafevpnapi.com:44370
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - sg-2.gsafevpnapi.com:31870 3
-  - us-2.gsafevpnapi.com:31870
+  - ♻️ 自动选择
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 138.199.42.68:8080
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - us-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
   - 102.37.156.224:443
-  - 146.70.61.37:8080
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   - 102.133.165.160:16233
-  - jp-2.gsafevpnapi.com:31870
-  - sg-3.gsafevpnapi.com:44370
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870
+  - 146.70.61.37:8080
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - sg-2.gsafevpnapi.com:31870 3
-  - us-2.gsafevpnapi.com:31870
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - 102.37.156.224:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - sg-3.gsafevpnapi.com:44370
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
-  - jp-2.gsafevpnapi.com:31870
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870 3
   - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
   - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🔰 节点选择
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - us-2.gsafevpnapi.com:31870
-  - us-2.gsafevpnapi.com:31870 2
-  - 🎯 全球直连
   - ♻️ 自动选择
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 🔰 节点选择
   type: select
 - name: ⛔️ 广告拦截
   proxies:
+  - 🎯 全球直连
   - 🛑 全球拦截
   - 🔰 节点选择
-  - 🎯 全球直连
   type: select
 - name: 🚫 运营劫持
   proxies:
+  - 🎯 全球直连
   - 🛑 全球拦截
   - 🔰 节点选择
-  - 🎯 全球直连
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - 102.37.156.224:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - sg-3.gsafevpnapi.com:44370
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
-  - jp-2.gsafevpnapi.com:31870
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870 3
   - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
   - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🔰 节点选择
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - us-2.gsafevpnapi.com:31870
-  - us-2.gsafevpnapi.com:31870 2
-  - 🎯 全球直连
   - ♻️ 自动选择
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 🔰 节点选择
   type: select
 - name: 🌏 国内媒体
   proxies:
-  - 🔰 节点选择
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
   - 🎯 全球直连
+  - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 138.199.42.68:8080
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - us-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
+  - 🎯 全球直连
   - 102.37.156.224:443
   - 146.70.61.37:8080
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   - 102.133.165.160:16233
-  - 🔰 节点选择
-  - jp-2.gsafevpnapi.com:31870
-  - 🎯 全球直连
-  - sg-3.gsafevpnapi.com:44370
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - sg-2.gsafevpnapi.com:31870 3
-  - us-2.gsafevpnapi.com:31870
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 🔰 节点选择
   type: select
 - name: 📲 电报信息
   proxies:
   - 138.199.42.68:8080
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - us-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
+  - 🎯 全球直连
   - 102.37.156.224:443
   - 146.70.61.37:8080
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
   - 102.133.165.160:16233
-  - 🔰 节点选择
-  - jp-2.gsafevpnapi.com:31870
-  - 🎯 全球直连
-  - sg-3.gsafevpnapi.com:44370
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - sg-2.gsafevpnapi.com:31870 3
-  - us-2.gsafevpnapi.com:31870
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 🔰 节点选择
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - 102.37.156.224:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - sg-3.gsafevpnapi.com:44370
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
-  - jp-2.gsafevpnapi.com:31870
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870 3
   - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
   - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🔰 节点选择
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - us-2.gsafevpnapi.com:31870
-  - us-2.gsafevpnapi.com:31870 2
   - ♻️ 自动选择
-  - 🎯 全球直连
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 🔰 节点选择
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -275,30 +145,20 @@ proxy-groups:
   type: select
 - name: 🛑 全球拦截
   proxies:
-  - REJECT
   - DIRECT
+  - REJECT
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - 102.37.156.224:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - sg-3.gsafevpnapi.com:44370
-  - jp-2.gsafevpnapi.com:31870 2
-  - sg-2.gsafevpnapi.com:31870 2
-  - sg-3.gsafevpnapi.com:44370 2
-  - jp-2.gsafevpnapi.com:31870
-  - sg-3.gsafevpnapi.com:44370 3
-  - sg-2.gsafevpnapi.com:31870 3
   - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
   - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🔰 节点选择
-  - sg-2.gsafevpnapi.com:31870
   - 8.209.74.72:20001vmess节点集合vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTgwMDAiLCJwcyI6InlvdW5lZWQud2luIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9vless节点集合vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.190.103:443
-  - us-2.gsafevpnapi.com:31870
-  - us-2.gsafevpnapi.com:31870 2
   - ♻️ 自动选择
-  - 🎯 全球直连
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 🔰 节点选择
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
