@@ -65,133 +65,133 @@ proxies:
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  sni: _acme-challenge.sb.cloudns.biz
+  sni: hy2.123266.xyz
   type: trojan
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 8.209.74.72:20001
+  - 138.199.42.68:8080
+  - ♻️ 自动选择
+  - 🎯 全球直连
   - 102.37.156.224:443
   - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - 173.244.56.9:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🎯 全球直连
-  - ♻️ 自动选择
-  - 138.199.42.68:8080
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 8.209.74.72:20001
+  - 138.199.42.68:8080
   - 102.37.156.224:443
   - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - 173.244.56.9:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 138.199.42.68:8080
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 8.209.74.72:20001
-  - 138.199.42.68:8080
-  - 102.37.156.224:443
-  - 173.244.56.9:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
-  - 102.133.165.160:16233
-  - 🎯 全球直连
   - ♻️ 自动选择
+  - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 - name: ⛔️ 广告拦截
   proxies:
-  - 🎯 全球直连
-  - 🛑 全球拦截
   - 🔰 节点选择
+  - 🛑 全球拦截
+  - 🎯 全球直连
   type: select
 - name: 🚫 运营劫持
   proxies:
-  - 🎯 全球直连
-  - 🛑 全球拦截
   - 🔰 节点选择
+  - 🛑 全球拦截
+  - 🎯 全球直连
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 8.209.74.72:20001
-  - 138.199.42.68:8080
-  - 102.37.156.224:443
-  - 173.244.56.9:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
-  - 102.133.165.160:16233
-  - 🎯 全球直连
   - ♻️ 自动选择
+  - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 - name: 🌏 国内媒体
   proxies:
-  - 🎯 全球直连
   - 🔰 节点选择
+  - 🎯 全球直连
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 🔰 节点选择
-  - 8.209.74.72:20001
+  - 138.199.42.68:8080
+  - 🎯 全球直连
   - 102.37.156.224:443
   - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - 173.244.56.9:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🎯 全球直连
-  - 138.199.42.68:8080
+  - 🔰 节点选择
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 - name: 📲 电报信息
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 🔰 节点选择
-  - 8.209.74.72:20001
+  - 138.199.42.68:8080
+  - 🎯 全球直连
   - 102.37.156.224:443
   - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - 173.244.56.9:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
   - 102.133.165.160:16233
-  - 🎯 全球直连
-  - 138.199.42.68:8080
+  - 🔰 节点选择
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 8.209.74.72:20001
-  - 138.199.42.68:8080
-  - 102.37.156.224:443
-  - 173.244.56.9:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
-  - 102.133.165.160:16233
-  - 🎯 全球直连
   - ♻️ 自动选择
+  - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -199,24 +199,24 @@ proxy-groups:
   type: select
 - name: 🛑 全球拦截
   proxies:
-  - REJECT
   - DIRECT
+  - REJECT
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - 107.151.182.197:8080
-  - youneed.win
-  - 8.209.74.72:20001
-  - 138.199.42.68:8080
-  - 102.37.156.224:443
-  - 173.244.56.9:443
-  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
-  - cloud.lakshan.us:119
-  - 146.70.61.37:8080
-  - 102.133.165.160:16233
-  - 🎯 全球直连
   - ♻️ 自动选择
+  - 138.199.42.68:8080
+  - 🎯 全球直连
+  - 102.37.156.224:443
+  - join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443
+  - 102.133.165.160:16233
   - 🔰 节点选择
+  - 8.209.74.72:20001
+  - cloud.lakshan.us:119
+  - 173.244.56.9:443
+  - youneed.win
+  - 146.70.61.37:8080
+  - 107.151.182.197:8080
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
