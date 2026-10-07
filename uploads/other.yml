@@ -17,10 +17,10 @@ proxies:
   server: 146.70.61.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  name: 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   password: PWpjPo3tqhPN4yRZ
-  port: 2040
-  server: 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19
+  port: 443
+  server: 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47
   type: ss
 proxy-groups:
 - name: 🔰 节点选择
@@ -29,14 +29,14 @@ proxy-groups:
   - 🎯 全球直连
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -46,7 +46,7 @@ proxy-groups:
   - 🎯 全球直连
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -67,7 +67,7 @@ proxy-groups:
   - 🎯 全球直连
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -80,7 +80,7 @@ proxy-groups:
   - 🔰 节点选择
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 - name: 📲 电报信息
   proxies:
@@ -88,7 +88,7 @@ proxy-groups:
   - 🎯 全球直连
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -97,7 +97,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -115,7 +115,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 138.199.42.68:8080
   - 146.70.61.37:8080
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://508a731a-8fa2-49b5-9fb1-63a1dee7f3db@188.245.191.19:2040
+  - 8.209.74.72:20001vmess节点集合vless节点集合vless://25e16692-d097-4e69-9e2d-8415609c1968@78.135.73.47:443
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
