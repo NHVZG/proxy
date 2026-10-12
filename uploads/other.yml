@@ -4,6 +4,18 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- cipher: aes-256-gcm
+  name: ruot.ayucloudservices.nl:22069
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+  port: 22069
+  server: ruot.ayucloudservices.nl
+  type: ss
+- cipher: rc4-md5
+  name: 107.151.182.197:8080
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.197
+  type: ss
 - cipher: rc4-md5
   name: 138.199.42.68:8080
   password: 14fFPrbezE3HDZzsMOr6
@@ -11,261 +23,94 @@ proxies:
   server: 138.199.42.68
   type: ss
 - cipher: rc4-md5
-  name: 146.70.61.37:8080
+  name: 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  password: PWpjPo3tqhPN4yRZ
   port: 443
-  server: 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111
+  server: 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111
   type: ss
-- name: tjrb.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjrb.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjyn.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjyn.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjhg.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjhg.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjxjp.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjxjp.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjflb.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjflb.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjadly.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjadly.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjterq.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjterq.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjjnd.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjjnd.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjyg.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjyg.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjmg1.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjmg1.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjmg2.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjmg2.m2k699.com
-  skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-- name: tjmlxy.m2k699.com:24999
-  password: c2640aea-9feb-4b20-96b4-5306ef8e6398
-  port: 24999
-  server: tjmlxy.m2k699.com
-  skip-cert-verify: true
-  sni: jpzz01v6.cloudtop.sryze.cc
-  type: trojan
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
   - ♻️ 自动选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
   - 🎯 全球直连
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
   - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
-  - ♻️ 自动选择
   - 🔰 节点选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
+  - ♻️ 自动选择
   - 🎯 全球直连
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - name: ⛔️ 广告拦截
   proxies:
+  - 🛑 全球拦截
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🛑 全球拦截
   type: select
 - name: 🚫 运营劫持
   proxies:
+  - 🛑 全球拦截
   - 🎯 全球直连
   - 🔰 节点选择
-  - 🛑 全球拦截
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
-  - ♻️ 自动选择
   - 🔰 节点选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
+  - ♻️ 自动选择
   - 🎯 全球直连
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - name: 🌏 国内媒体
   proxies:
-  - 🔰 节点选择
   - 🎯 全球直连
+  - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
-  - 🔰 节点选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
   - 🎯 全球直连
+  - 🔰 节点选择
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - name: 📲 电报信息
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
   - 🔰 节点选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
   - 🎯 全球直连
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
-  - ♻️ 自动选择
   - 🔰 节点选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
   - 🎯 全球直连
+  - ♻️ 自动选择
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -278,24 +123,13 @@ proxy-groups:
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - tjyg.m2k699.com:24999
-  - tjmg1.m2k699.com:24999
-  - 8.209.74.72:20001vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
-  - tjterq.m2k699.com:24999
-  - tjjnd.m2k699.com:24999
-  - tjyn.m2k699.com:24999
-  - tjxjp.m2k699.com:24999
-  - tjadly.m2k699.com:24999
-  - tjmg2.m2k699.com:24999
-  - tjrb.m2k699.com:24999
-  - ♻️ 自动选择
   - 🔰 节点选择
-  - 146.70.61.37:8080
-  - tjflb.m2k699.com:24999
-  - tjmlxy.m2k699.com:24999
-  - 138.199.42.68:8080
-  - tjhg.m2k699.com:24999
   - 🎯 全球直连
+  - ♻️ 自动选择
+  - ruot.ayucloudservices.nl:22069
+  - 107.151.182.197:8080
+  - 138.199.42.68:8080
+  - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
