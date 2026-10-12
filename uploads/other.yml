@@ -4,18 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: ruot.ayucloudservices.nl:22069
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-  port: 22069
-  server: ruot.ayucloudservices.nl
-  type: ss
-- cipher: rc4-md5
-  name: 107.151.182.197:8080
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.197
-  type: ss
 - cipher: rc4-md5
   name: 138.199.42.68:8080
   password: 14fFPrbezE3HDZzsMOr6
@@ -33,16 +21,12 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: url-test
@@ -52,8 +36,6 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
@@ -74,8 +56,6 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
@@ -88,8 +68,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
@@ -97,8 +75,6 @@ proxy-groups:
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
@@ -107,8 +83,6 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
@@ -126,8 +100,6 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - ruot.ayucloudservices.nl:22069
-  - 107.151.182.197:8080
   - 138.199.42.68:8080
   - 146.70.61.37:8080vmess节点集合vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   type: select
