@@ -41,6 +41,18 @@ proxies:
   server: 51.222.155.113
   type: ss
 - cipher: aes-256-gcm
+  name: 51.222.155.32:5003
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.79.64.198:8119
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+- cipher: aes-256-gcm
   name: 51.79.49.116:8882
   password: kDWvXYZoTBcGkC4
   port: 8882
@@ -58,11 +70,23 @@ proxies:
   port: 8388
   server: 132.243.175.144
   type: ss
+- cipher: aes-256-gcm
+  name: 64.176.2.21:8388
+  password: xBStBEVqvGwHPocc
+  port: 8388
+  server: 64.176.2.21
+  type: ss
 - cipher: aes-128-gcm
   name: 185.103.110.66:18280
   password: f9300a9bf39ae0347c3a3bfbc4dd7754
   port: 18280
   server: 185.103.110.66
+  type: ss
+- cipher: aes-128-gcm
+  name: 158.173.24.73:443
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
   type: ss
 - cipher: aes-256-gcm
   name: 149.102.132.184:80
@@ -81,6 +105,12 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.164.175.81
+  type: ss
+- cipher: aes-256-gcm
+  name: 64.177.90.30:8388
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 185.213.23.63:990
@@ -143,39 +173,23 @@ proxies:
   server: 138.199.42.68
   type: ss
 - cipher: rc4-md5
-  name: 146.70.61.37:8080
+  name: 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
   password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
+  port: 443
+  server: 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0=vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111
   type: ss
-- alterId: 0
-  cipher: auto
-  name: youneed.win
+- name: 185.220.100.168:443
   network: ws
+  password: humanity
   port: 443
-  server: 4KnPRw5H74w4AVNs.v.3dns.vip
-  servername: 4KnPRw5H74w4AVNs.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
+  server: 185.220.100.168
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
   ws-opts:
     headers:
-      Host: 4KnPRw5H74w4AVNs.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: youneed.win 2
-  network: ws
-  port: 443
-  server: XSmlqR4AuuOPMsMN.v.3dns.vip
-  servername: XSmlqR4AuuOPMsMN.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: edd281f6-71e4-4c1e-ac6b-a1c52e2e1270
-  ws-opts:
-    headers:
-      Host: XSmlqR4AuuOPMsMN.v.3dns.vip
-    path: /ws-vmess
+      Host: www.calmlunch.com
+    path: /assignment
 - name: 45.87.41.18:443
   network: ws
   password: humanity
@@ -240,282 +254,310 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - ♻️ 自动选择
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - ♻️ 自动选择
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - pure-kodiak.rooster465.autos:443
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - pure-kodiak.rooster465.autos:443
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 103.107.52.106:52351
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - ♻️ 自动选择
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 🔰 节点选择
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - ♻️ 自动选择
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - pure-kodiak.rooster465.autos:443
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 🔰 节点选择
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 - name: ⛔️ 广告拦截
   proxies:
+  - 🎯 全球直连
   - 🛑 全球拦截
   - 🔰 节点选择
-  - 🎯 全球直连
   type: select
 - name: 🚫 运营劫持
   proxies:
+  - 🎯 全球直连
   - 🛑 全球拦截
   - 🔰 节点选择
-  - 🎯 全球直连
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - ♻️ 自动选择
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 🔰 节点选择
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - ♻️ 自动选择
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - pure-kodiak.rooster465.autos:443
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 🔰 节点选择
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 - name: 🌏 国内媒体
   proxies:
-  - 🔰 节点选择
   - 🎯 全球直连
+  - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 🔰 节点选择
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - pure-kodiak.rooster465.autos:443
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 🔰 节点选择
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 - name: 📲 电报信息
   proxies:
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 🔰 节点选择
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - pure-kodiak.rooster465.autos:443
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 🔰 节点选择
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - ♻️ 自动选择
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 🔰 节点选择
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - ♻️ 自动选择
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - pure-kodiak.rooster465.autos:443
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 🔰 节点选择
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -523,46 +565,50 @@ proxy-groups:
   type: select
 - name: 🛑 全球拦截
   proxies:
-  - DIRECT
   - REJECT
+  - DIRECT
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - ♻️ 自动选择
-  - 185.164.175.81:19999
-  - 102.37.156.224:443
-  - 70.34.212.124:8388
-  - 103.107.52.106:52351
-  - 66.23.203.21:59689
-  - pure-kodiak.rooster465.autos:443
-  - 45.87.41.18:443
-  - 185.114.72.31:2053
-  - 149.102.132.184:80
-  - 57.129.113.16:8388
-  - youneed.win 2
-  - 138.199.42.68:8080
-  - 185.103.110.66:18280
-  - 51.222.200.165:5000
-  - 51.222.12.127:445
-  - 132.243.175.144:8388
-  - 🔰 节点选择
-  - 154.46.31.106:443
   - 51.222.136.236:8882
-  - 45.130.125.160:443
-  - 🎯 全球直连
-  - 94.156.250.148:7001
-  - 64.74.163.69:18766
-  - 185.103.110.68:18283
-  - pphfree2.mvpnpvpn.de5.net:52351
-  - 102.133.165.160:16233
-  - 146.70.61.37:8080
-  - 51.222.155.113:5601
-  - youneed.win
-  - 51.222.141.125:445
-  - 51.79.49.116:8882
-  - us3-2.998998.best:443
   - 185.213.23.63:990
+  - 57.129.113.16:8388
+  - 158.173.24.73:443
+  - 146.70.61.37:8080vmess节点集合vmess://eyJ2IjoiMiIsInBzIjoieW91bmVlZC53aW4iLCJhZGQiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwb3J0Ijo0NDMsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6ImVkZDI4MWY2LTcxZTQtNGMxZS1hYzZiLWExYzUyZTJlMTI3MCIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IlhTbWxxUjRBdXVPUE1zTU4udi4zZG5zLnZpcCIsImhvc3QiOiJYU21scVI0QXV1T1BNc01OLnYuM2Rucy52aXAiLCJwYXRoIjoiL3dzLXZtZXNzIn0-vless节点集合vless://4758aee6-6d1a-4306-b460-2398b5af4e35@34.35.189.111:443
+  - 51.222.200.165:5000
+  - 185.103.110.66:18280
+  - ♻️ 自动选择
+  - 70.34.212.124:8388
+  - 51.79.49.116:8882
+  - pure-kodiak.rooster465.autos:443
+  - 66.23.203.21:59689
+  - 94.156.250.148:7001
+  - 185.220.100.168:443
+  - 45.130.125.160:443
+  - 51.222.155.32:5003
   - 51.79.85.185:8118
+  - 102.133.165.160:16233
+  - 51.222.141.125:445
+  - 64.74.163.69:18766
+  - 185.164.175.81:19999
+  - 51.79.64.198:8119
+  - 185.114.72.31:2053
+  - 51.222.12.127:445
+  - 149.102.132.184:80
+  - us3-2.998998.best:443
+  - 132.243.175.144:8388
+  - 185.103.110.68:18283
+  - 🔰 节点选择
+  - 103.107.52.106:52351
+  - 🎯 全球直连
+  - 51.222.155.113:5601
+  - 154.46.31.106:443
+  - 102.37.156.224:443
+  - 64.176.2.21:8388
+  - 45.87.41.18:443
+  - 64.177.90.30:8388
+  - pphfree2.mvpnpvpn.de5.net:52351
+  - 138.199.42.68:8080
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
