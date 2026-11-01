@@ -4,324 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: 202.50.253.99:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.90:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.72:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.63:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.27:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: msk2.rvpn.app:8388
-  password: MODziWLa9qMuW-4yPa0rfw
-  port: 8388
-  server: msk2.rvpn.app
-  type: ss
-- cipher: aes-256-gcm
-  name: 82.110.60.9:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 82.110.60.9
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.222.141.125:445
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.141.125
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.79.85.185:8118
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.79.85.185
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.222.200.165:5000
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.222.200.165
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.222.136.236:8882
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.222.136.236
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.222.155.113:5601
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.222.155.32:5003
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.79.64.198:8119
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.79.49.116:8882
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.79.49.116
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.222.12.127:445
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.12.127
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 178.253.16.185:8388
-  password: x2A6AsyZ-rAllz0wbKHzWA
-  port: 8388
-  server: 178.253.16.185
-  type: ss
-- cipher: aes-256-gcm
-  name: 185.176.206.9:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.206.9
-  type: ss
-- cipher: aes-256-gcm
-  name: 94.156.250.148:7001
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.54:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.45:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- cipher: aes-256-gcm
-  name: 202.50.253.81:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-- cipher: aes-256-gcm
-  name: 185.164.175.81:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.164.175.81
-  type: ss
-- cipher: aes-256-gcm
-  name: 154.36.158.197:8388
-  password: BeaUf9c0AEWH40Pu
-  port: 8388
-  server: 154.36.158.197
-  type: ss
-- cipher: aes-256-gcm
-  name: 84.247.155.196:443
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
-- cipher: aes-128-gcm
-  name: 149.22.87.204:443
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
-- cipher: aes-256-gcm
-  name: 141.164.45.187:6697
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 141.164.45.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 185.213.23.63:990
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: pol.rvpn.app:8388
-  password: 8z2OB_gvFvpKgjFi8s9Cvw
-  port: 8388
-  server: pol.rvpn.app
-  type: ss
-- cipher: aes-256-gcm
-  name: 51.83.192.80:8388
-  password: itzvpn@321
-  port: 8388
-  server: 51.83.192.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 54.36.174.140:443
-  password: 6heexyz
-  port: 443
-  server: 54.36.174.140
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: pl134.vpnbook.com:443
-  password: 6heexyz
-  port: 443
-  server: pl134.vpnbook.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 185.22.155.121:18443
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  port: 18443
-  server: 185.22.155.121
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 159.194.251.76:8388
-  password: MODziWLa9qMuW-4yPa0rfw
-  port: 8388
-  server: 159.194.251.76
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 102.37.156.224:443
-  password: aduB9HGxQHjA2SBMRjkHX6
-  port: 443
-  server: 102.37.156.224
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 102.133.165.160:16233
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
-  type: ss
-- cipher: aes-256-gcm
-  name: 84.247.155.196:80
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: sql.popmintxo.cc:43385
-  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  port: 43385
-  server: sql.popmintxo.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 54.36.174.134:443
-  password: 6heexyz
-  port: 443
-  server: 54.36.174.134
-  type: ss
-- cipher: aes-256-gcm
-  name: 185.176.204.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ams1.rvpn.app:8388
-  password: x2A6AsyZ-rAllz0wbKHzWA
-  port: 8388
-  server: ams1.rvpn.app
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 82.38.31.170:443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.170
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: pl140.vpnbook.com:443
-  password: 6heexyz
-  port: 443
-  server: pl140.vpnbook.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: staging.lastilhame.monster:49917
-  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
-  port: 49917
-  server: staging.lastilhame.monster
-  type: ss
-- cipher: aes-128-gcm
-  name: 149.22.87.240:443
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: aes-256-gcm
-  name: 193.151.160.9:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.160.9
-  type: ss
-- cipher: aes-256-gcm
-  name: 185.230.230.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.230.230.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 95.215.201.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 95.215.201.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 193.151.163.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.163.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 45.86.51.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 45.86.51.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 193.151.160.18:19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.160.18
-  type: ss
-- cipher: rc4-md5
-  name: 138.199.42.68:8080
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
 - cipher: rc4-md5
   name: 146.70.61.37:8080
   password: 14fFPrbezE3HDZzsMOr6
@@ -335,10 +17,352 @@ proxies:
   server: 68.183.227.4
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 54.36.174.134:443
+  password: 6heexyz
+  port: 443
+  server: 54.36.174.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 54.36.174.140:443
+  password: 6heexyz
+  port: 443
+  server: 54.36.174.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: pl134.vpnbook.com:443
+  password: 6heexyz
+  port: 443
+  server: pl134.vpnbook.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: pl140.vpnbook.com:443
+  password: 6heexyz
+  port: 443
+  server: pl140.vpnbook.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 104.239.12.81:43385
+  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
+  port: 43385
+  server: 104.239.12.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: sql.popmintxo.cc:43385
+  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
+  port: 43385
+  server: sql.popmintxo.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 185.213.23.63:990
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 104.253.216.227:49917
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: 104.253.216.227
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: staging.lastilhame.monster:49917
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: staging.lastilhame.monster
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 102.37.156.224:443
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 198.98.53.130:443
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 216.105.168.18:443
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 57.129.113.16:8388
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.147:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.223:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.176:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.179:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.180:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.180
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.181:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.184:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.186:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.187:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.189:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.190:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.191:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.192:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.193:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.194:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.198:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.198
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.199:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.200:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.202:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.203:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.203
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.204:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.205:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.206:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.207:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.207
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.208:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.210:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.212:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.212
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.214:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.214
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.215:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.215
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.216:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.216
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.217:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.218:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.219:8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.219
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.168:8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.212:8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.212
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 154.46.31.106:443
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: 154.46.31.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: bogging-eyeteeth-fly.freesocks.work:443
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 130.49.189.158:43558
+  password: lsu1v/3iNERwDDVwxCu5033KCUqQOoElYQul63kmqJ8=
+  port: 43558
+  server: 130.49.189.158
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 178.83.185.156:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 178.83.185.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.151:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.179:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.197:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 193.29.139.204:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 193.29.139.235:8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.235
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.10:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 82.38.31.149:8080
@@ -353,10 +377,10 @@ proxies:
   server: 82.38.31.155
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 82.38.31.157:8080
+  name: 82.38.31.156:8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.157
+  server: 82.38.31.156
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 82.38.31.159:443
@@ -369,6 +393,24 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.16
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.162:443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.165:443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.165
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.170:443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.170
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 82.38.31.171:8080
@@ -389,16 +431,70 @@ proxies:
   server: 82.38.31.174
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 82.38.31.18:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 82.38.31.2:8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 82.38.31.26:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.26
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.3:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.3
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.34:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.35:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.39:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.39
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.42:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.42
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 82.38.31.46:8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.47:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.48:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.48
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 82.38.31.49:8080
@@ -413,10 +509,28 @@ proxies:
   server: 82.38.31.61
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 82.38.31.62:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 82.38.31.66:8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 102.133.165.160:16233
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+- cipher: chacha20-ietf
+  name: 103.149.182.79:8388
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
   type: ss
 - cipher: aes-128-cfb
   name: 109.201.152.181:443
@@ -431,6 +545,48 @@ proxies:
   server: 141.98.101.181
   type: ss
 - cipher: aes-128-gcm
+  name: 158.173.20.208:443
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.208
+  type: ss
+- cipher: aes-128-gcm
+  name: 149.22.87.204:443
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-128-gcm
+  name: 149.22.87.240:443
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- cipher: aes-128-gcm
+  name: 149.22.87.241:443
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+- cipher: aes-128-gcm
+  name: 149.22.95.183:443
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+- cipher: aes-128-gcm
+  name: 156.146.38.167:443
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+- cipher: aes-128-gcm
+  name: 156.146.38.168:443
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  type: ss
+- cipher: aes-128-gcm
   name: 156.146.38.169:443
   password: shadowsocks
   port: 443
@@ -442,6 +598,360 @@ proxies:
   port: 443
   server: 156.146.38.170
   type: ss
+- cipher: aes-128-gcm
+  name: 173.244.56.6:443
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
+- cipher: aes-128-gcm
+  name: 173.244.56.9:443
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+- cipher: aes-128-gcm
+  name: 37.19.198.160:443
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.160
+  type: ss
+- cipher: aes-128-gcm
+  name: 37.19.198.236:443
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+- cipher: aes-128-gcm
+  name: 37.19.198.243:443
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- cipher: aes-128-gcm
+  name: 37.19.198.244:443
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+- cipher: aes-256-cfb
+  name: 211.178.105.134:6123
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- cipher: aes-256-cfb
+  name: p141.panda001.net:4652
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 149.104.109.252:8882
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.104.109.252
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.222.136.236:8882
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.79.49.116:8882
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.79.49.116
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.83.192.80:8388
+  password: itzvpn@321
+  port: 8388
+  server: 51.83.192.80
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.75.118.5:20222
+  password: lF3nRjH58koKTe-_VtABbg
+  port: 20222
+  server: 51.75.118.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 15.204.247.206:4444
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.206
+  type: ss
+- cipher: aes-256-gcm
+  name: 15.204.247.244:4444
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.244
+  type: ss
+- cipher: aes-256-gcm
+  name: 38.54.59.102:443
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.54.59.102
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.222.12.127:445
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.12.127
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.222.141.125:445
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
+- cipher: aes-256-gcm
+  name: 84.247.155.196:443
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  type: ss
+- cipher: aes-256-gcm
+  name: 84.247.155.196:80
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  type: ss
+- cipher: aes-256-gcm
+  name: 64.177.90.30:8388
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
+  type: ss
+- cipher: aes-256-gcm
+  name: 154.36.158.197:8388
+  password: BeaUf9c0AEWH40Pu
+  port: 8388
+  server: 154.36.158.197
+  type: ss
+- cipher: aes-256-gcm
+  name: 70.34.212.124:8388
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
+  type: ss
+- cipher: aes-256-gcm
+  name: 139.84.166.47:8388
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+- cipher: aes-256-gcm
+  name: 185.22.155.121:18443
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  port: 18443
+  server: 185.22.155.121
+  type: ss
+- cipher: aes-256-gcm
+  name: 141.164.45.187:7001
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 94.156.250.148:7001
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+- cipher: aes-256-gcm
+  name: 141.164.45.187:6697
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 15.204.247.175:8008
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 15.204.247.175
+  type: ss
+- cipher: aes-256-gcm
+  name: 185.215.132.9:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.9
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.81:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.90:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- cipher: aes-256-gcm
+  name: 185.164.175.81:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.164.175.81
+  type: ss
+- cipher: aes-256-gcm
+  name: 185.176.204.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 185.176.206.9:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.206.9
+  type: ss
+- cipher: aes-256-gcm
+  name: 185.230.230.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.230.230.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 193.151.160.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 193.151.160.9:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.9
+  type: ss
+- cipher: aes-256-gcm
+  name: 193.151.163.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.163.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.27:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.36:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.45:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.54:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.63:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.72:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
+  name: 202.50.253.99:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 45.86.51.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 45.86.51.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 82.110.60.9:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 82.110.60.9
+  type: ss
+- cipher: aes-256-gcm
+  name: 95.215.201.18:19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 141.164.45.187:8888
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.222.155.113:5601
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.222.200.165:5000
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.79.64.198:8119
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.79.85.185:8118
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
+  type: ss
+- cipher: aes-256-gcm
+  name: 45.207.207.25:443
+  password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
+  port: 443
+  server: 45.207.207.25
+  type: ss
+- cipher: aes-256-gcm
+  name: 51.222.155.32:5003
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: rc4-md5
+  name: 138.199.42.68:8080
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 82.38.31.157:8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.157
+  type: ss
 - cipher: aes-256-gcm
   name: 15.204.233.41:8882
   password: kDWvXYZoTBcGkC4
@@ -451,58 +961,32 @@ proxies:
 - alterId: 0
   cipher: auto
   name: youneed.win
-  network: ws
-  port: 443
-  server: rhhierkwrf6fhs2h.v.3dns.vip
-  servername: rhhierkwrf6fhs2h.v.3dns.vip
-  tls: true
+  port: 18000
+  server: 149.88.23.202
+  servername: 149.88.23.202
+  tls: false
   type: vmess
-  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
-  ws-opts:
-    headers:
-      Host: rhhierkwrf6fhs2h.v.3dns.vip
-    path: /ws-vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: youneed.win 2
-  network: ws
-  port: 23026
-  server: 47.244.120.197
+  port: 18000
+  server: 38.110.1.246
+  servername: 38.110.1.246
   tls: false
   type: vmess
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: youneed.win 3
-  network: ws
-  port: 44867
-  server: 47.244.120.197
+  port: 18000
+  server: ww11.levikogjgfdd.ir
   tls: false
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: youneed.win 4
-  network: ws
-  port: 443
-  server: 8.217.13.103
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: youneed.win 5
   network: ws
   port: 443
   server: euu1yAlfmcqvLJEx.v.3dns.vip
@@ -515,28 +999,217 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
+  name: youneed.win 5
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
   name: youneed.win 6
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: youneed.win 7
   port: 18000
   server: 149.88.23.207
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 141.193.213.172:443
+- alterId: 0
+  cipher: auto
+  name: youneed.win 8
   network: ws
-  password: humanity
   port: 443
-  server: 141.193.213.172
-  sni: www.calmlunch.com
-  type: trojan
+  server: rhhierkwrf6fhs2h.v.3dns.vip
+  servername: rhhierkwrf6fhs2h.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 64.176.163.182:443
+      Host: rhhierkwrf6fhs2h.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: youneed.win 9
+  network: ws
+  port: 443
+  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a80412b4d44a3a8d8523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: youneed.win 10
+  network: ws
+  port: 443
+  server: 8.217.186.60
+  servername: euu1yalfmcqvljex.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
+  ws-opts:
+    headers:
+      Host: euu1yalfmcqvljex.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: youneed.win 11
+  network: ws
+  port: 53617
+  server: az-1.linkaa.xyz
+  servername: az-1.linkaa.xyz
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: youneed.win 12
+  network: ws
+  port: 443
+  server: www.windowsmsidownloads.com
+  servername: www.windowsmsidownloads.com
+  tls: true
+  type: vmess
+  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  ws-opts:
+    headers:
+      Host: www.windowsmsidownloads.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: youneed.win 13
+  network: ws
+  port: 443
+  server: www.gptcloudai.com
+  servername: www.gptcloudai.com
+  tls: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: youneed.win 14
+  network: ws
+  port: 443
+  server: www.windowssearchtools.com
+  servername: www.windowssearchtools.com
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: youneed.win 15
+  network: ws
+  port: 80
+  server: 3h-kazakhstan1.09vpn.com
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: youneed.win 16
+  network: ws
+  port: 8443
+  server: 104.21.91.53
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: youneed.win 17
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: i2psm3knof5qjjix.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: youneed.win 18
+  network: ws
+  port: 443
+  server: 8.217.254.88
+  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: youneed.win 19
+  port: 18000
+  server: 84.17.41.2
+  servername: bj1aa2zyjxyamyuk.v.3dns.vip
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: youneed.win 20
+  network: ws
+  port: 2083
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: 170.101.101.19:443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 64.176.163.182
-  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  server: 170.101.101.19
+  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
 - name: 193.108.119.15:443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
@@ -545,6 +1218,168 @@ proxies:
   skip-cert-verify: true
   sni: courses.iloverussia2026.com
   type: trojan
+- name: 193.108.119.15:443 2
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  sni: courses.iloverussia2026.com
+  type: trojan
+- name: 193.108.119.193:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.193
+  sni: resources.iloverussia2026.com
+  type: trojan
+- name: 193.108.119.78:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  sni: www.iloverussia2026.com
+  type: trojan
+- name: 193.108.119.96:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  sni: learn.iloverussia2026.com
+  type: trojan
+- name: 216.152.147.48:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.48
+  sni: courses.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: 216.152.147.74:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.74
+  sni: api.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: 216.152.147.89:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.89
+  sni: www.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: 216.152.155.158:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.158
+  skip-cert-verify: true
+  sni: resources.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: 216.152.155.176:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.176
+  skip-cert-verify: false
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: 216.152.155.23:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.23
+  skip-cert-verify: false
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: 216.152.155.54:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.54
+  sni: learn.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: 216.152.156.212:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.212
+  skip-cert-verify: true
+  sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+- name: 216.152.156.42:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.42
+  skip-cert-verify: true
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+- name: 216.152.156.65:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.65
+  sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+- name: 216.152.156.81:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.81
+  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+- name: 216.238.104.154:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.238.104.154
+  skip-cert-verify: true
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  type: trojan
+- name: 216.238.80.100:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.238.80.100
+  sni: connectwithtopemployersandfindidealjobs.com
+  type: trojan
+- name: 45.63.30.142:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 45.63.30.142
+  skip-cert-verify: true
+  sni: connectwithemployerstohireyouridealteam.com
+  type: trojan
+- name: 64.176.163.182:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 64.176.163.182
+  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  type: trojan
+- name: 66.163.112.121:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.121
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+- name: 66.163.112.13:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.13
+  skip-cert-verify: false
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+- name: 66.163.112.31:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.31
+  skip-cert-verify: true
+  sni: unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+- name: 66.163.114.114:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.114
+  skip-cert-verify: true
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+- name: 66.163.114.132:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.132
+  skip-cert-verify: true
+  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+- name: 66.163.114.166:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.166
+  skip-cert-verify: true
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
 - name: 66.163.118.166:443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -552,6 +1387,413 @@ proxies:
   skip-cert-verify: false
   sni: learn.discovergreatjobsandadvanceyourcareer.com
   type: trojan
+- name: 66.163.118.166:443 2
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.166
+  sni: learn.discovergreatjobsandadvanceyourcareer.com
+  type: trojan
+- name: 66.163.118.244:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.244
+  skip-cert-verify: false
+  sni: api.discovergreatjobsandadvanceyourcareer.com
+  type: trojan
+- name: 66.163.118.251:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.251
+  skip-cert-verify: false
+  sni: resources.discovergreatjobsandadvanceyourcareer.com
+  type: trojan
+- name: 66.163.122.113:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.113
+  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: 66.163.122.7:443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.7
+  skip-cert-verify: true
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: 66.163.122.7:443 2
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.7
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: en001.zestapp778.com:29813
+  password: 5t6i121em5lkmsmk
+  port: 29813
+  server: en001.zestapp778.com
+  skip-cert-verify: true
+  sni: en001.zestapp778.com
+  type: trojan
+- name: en001.zestapp778.com:29813 2
+  password: 5t6i121em5lkmsmk
+  port: 29813
+  server: en001.zestapp778.com
+  sni: en001.zestapp778.com
+  type: trojan
+- name: in002.zestapp778.com:42733
+  password: 5t6i121em5lkmsmk
+  port: 42733
+  server: in002.zestapp778.com
+  skip-cert-verify: true
+  sni: in002.zestapp778.com
+  type: trojan
+- name: in002.zestapp778.com:42733 2
+  password: 5t6i121em5lkmsmk
+  port: 42733
+  server: in002.zestapp778.com
+  sni: in002.zestapp778.com
+  type: trojan
+- name: us001.zestapp778.com:57277
+  password: 5t6i121em5lkmsmk
+  port: 57277
+  server: us001.zestapp778.com
+  skip-cert-verify: true
+  sni: us001.zestapp778.com
+  type: trojan
+- name: blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  port: 443
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+- name: resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+- name: 104.16.240.177:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.240.177
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 104.18.12.149:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 104.19.229.21:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 108.162.194.134:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 108.162.194.134
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: 130.12.46.156:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.12.46.156
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 141.98.233.6:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.98.233.6
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 153.56.171.216:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 153.56.171.216
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 161.35.192.122:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 161.35.192.122
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: 172.104.81.253:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.104.81.253
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 172.64.151.20:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.151.20
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 172.64.153.224:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.153.224
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 172.67.74.177:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.74.177
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 173.242.51.189:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 173.242.51.189
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 178.104.197.49:2053
+  network: ws
+  password: humanity
+  port: 2053
+  server: 178.104.197.49
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.253.241.115:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.253.241.115
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.102.54:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.102.54
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.111.93:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.111.93
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.115.22:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.115.22
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.126.253:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.126.253
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.127.209:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.127.209
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.127.92:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.127.92
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.132.69:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.132.69
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.136.143:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.136.143
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 179.255.99.31:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.99.31
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 185.114.72.31:2053
+  network: ws
+  password: humanity
+  port: 2053
+  server: 185.114.72.31
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 185.114.72.31:8443
+  network: ws
+  password: humanity
+  port: 8443
+  server: 185.114.72.31
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 185.220.100.168:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: 185.255.179.166:443
   network: ws
   password: humanity
@@ -564,23 +1806,155 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 185.225.68.232:443
+- name: 185.82.218.224:443
   network: ws
   password: humanity
   port: 443
-  server: 185.225.68.232
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 185.82.218.224
+  skip-cert-verify: true
+  sni: www.cordweave.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.cordweave.com
     path: /assignment
-- name: 212.227.144.37:8443
+- name: 188.226.181.61:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.226.181.61
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: 188.255.156.209:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.255.156.209
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 194.114.138.162:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 194.114.138.162
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 194.135.119.82:2053
+  network: ws
+  password: humanity
+  port: 2053
+  server: 194.135.119.82
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 198.41.216.1:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.216.1
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 202.50.55.76:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.50.55.76
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 202.61.226.121:8443
   network: ws
   password: humanity
   port: 8443
-  server: 212.227.144.37
+  server: 202.61.226.121
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 208.68.180.204:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.68.180.204
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 212.2.227.187:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.2.227.187
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 23.246.154.144:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 23.246.154.144
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 35.241.172.224:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 35.241.172.224
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 45.130.125.160:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -600,82 +1974,148 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 185.114.72.31:2053
-  network: ws
-  password: humanity
-  port: 2053
-  server: 185.114.72.31
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 45.130.125.160:443
+- name: 52.194.44.56:443
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 185.220.100.168:443
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.220.100.168
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 104.19.229.21:443
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 64.176.163.182:443 2
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 64.176.163.182
+  server: 52.194.44.56
   skip-cert-verify: true
-  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  sni: www.cordweave.com
   type: trojan
-- name: in002.zestapp778.com:42733
-  password: 5t6i121em5lkmsmk
-  port: 42733
-  server: in002.zestapp778.com
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 77.221.139.114:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 77.221.139.114
   skip-cert-verify: true
-  sni: in002.zestapp778.com
+  sni: www.cordweave.com
   type: trojan
-- name: 66.163.112.13:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 78.40.209.33:443
+  network: ws
+  password: humanity
   port: 443
-  server: 66.163.112.13
-  skip-cert-verify: false
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  server: 78.40.209.33
+  skip-cert-verify: true
+  sni: www.cordweave.com
   type: trojan
-- name: 176.114.95.242:443
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 82.26.198.25:443
+  network: ws
+  password: humanity
   port: 443
-  server: 176.114.95.242
-  skip-cert-verify: false
-  sni: us-1.1984.love
+  server: 82.26.198.25
+  skip-cert-verify: true
+  sni: www.cordweave.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 89.36.137.173:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 89.36.137.173
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 91.196.32.217:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 91.196.32.217
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 93.85.236.9:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 93.85.236.9
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 93.86.12.49:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 93.86.12.49
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: www.calmlunch.com:443
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 69.164.240.85:50875
+  password: nwilryafgkyvuxauc8pz
+  port: 50875
+  server: 69.164.240.85
+  skip-cert-verify: true
+  type: trojan
+- name: www.777061.xyz:18603
+  password: lk59gDrTm2
+  port: 18603
+  server: www.777061.xyz
+  sni: www.777061.xyz
+  type: trojan
+- name: 141.193.213.172:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.172
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 185.225.68.232:443
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.225.68.232
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - name: 141.101.115.104:443
   network: ws
   password: humanity
@@ -724,27 +2164,6 @@ proxies:
     headers:
       Host: www.trusteeforward.com
     path: /assignment
-- name: 45.63.30.142:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 45.63.30.142
-  skip-cert-verify: true
-  sni: connectwithemployerstohireyouridealteam.com
-  type: trojan
-- name: 216.152.155.158:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.158
-  skip-cert-verify: false
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-- name: en001.zestapp778.com:29813
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  skip-cert-verify: true
-  sni: en001.zestapp778.com
-  type: trojan
 - name: 162.159.91.211:443
   network: ws
   password: humanity
@@ -757,13 +2176,6 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 66.163.118.244:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.244
-  skip-cert-verify: false
-  sni: api.discovergreatjobsandadvanceyourcareer.com
-  type: trojan
 - name: 165.215.250.14:443
   network: ws
   password: humanity
@@ -788,12 +2200,12 @@ proxies:
     headers:
       Host: www.trusteeforward.com
     path: /assignment
-- name: 216.152.155.23:443
+- name: 216.152.155.158:443 2
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.155.23
+  server: 216.152.155.158
   skip-cert-verify: false
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  sni: resources.nextjobopportunityandclaimyouridealrole.com
   type: trojan
 - name: 172.67.203.46:443
   network: ws
@@ -807,20 +2219,6 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: 216.152.155.176:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.176
-  skip-cert-verify: false
-  sni: blog.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-- name: 216.152.156.212:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.156.212
-  skip-cert-verify: true
-  sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  type: trojan
 - name: 104.18.45.38:443
   network: ws
   password: humanity
@@ -833,34 +2231,6 @@ proxies:
     headers:
       Host: www.trusteeforward.com
     path: /assignment
-- name: 66.163.114.166:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.166
-  skip-cert-verify: true
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-- name: 66.163.114.132:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.132
-  skip-cert-verify: true
-  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-- name: 66.163.114.114:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.114
-  skip-cert-verify: true
-  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-- name: 216.152.156.42:443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.156.42
-  skip-cert-verify: true
-  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  type: trojan
 - name: 185.18.250.252:443
   network: ws
   password: humanity
@@ -882,373 +2252,880 @@ proxies:
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - ♻️ 自动选择
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - ♻️ 自动选择
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 146.70.61.37:8080
+  - 82.38.31.210:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 146.70.61.37:8080
+  - 82.38.31.210:8080
+  - 193.108.119.15:443 2
+  - 84.247.155.196:80
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - ♻️ 自动选择
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 🔰 节点选择
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - 🔰 节点选择
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - ♻️ 自动选择
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 146.70.61.37:8080
+  - 82.38.31.210:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -1264,502 +3141,1180 @@ proxy-groups:
   type: select
 - name: 🌍 国外媒体
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - ♻️ 自动选择
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 🔰 节点选择
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - 🔰 节点选择
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - ♻️ 自动选择
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 146.70.61.37:8080
+  - 82.38.31.210:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🔰 节点选择
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
   - 🎯 全球直连
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 🔰 节点选择
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - 🔰 节点选择
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 82.38.31.210:8080
+  - 146.70.61.37:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 - name: 📲 电报信息
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 🔰 节点选择
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - 🔰 节点选择
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 82.38.31.210:8080
+  - 146.70.61.37:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 - name: 🍎 苹果服务
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - ♻️ 自动选择
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 🔰 节点选择
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - 🔰 节点选择
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - ♻️ 自动选择
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 146.70.61.37:8080
+  - 82.38.31.210:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1767,132 +4322,301 @@ proxy-groups:
   type: select
 - name: 🛑 全球拦截
   proxies:
-  - REJECT
   - DIRECT
+  - REJECT
   type: select
 - name: 🐟 漏网之鱼
   proxies:
-  - 109.201.152.181:443
-  - pl140.vpnbook.com:443
-  - staging.lastilhame.monster:49917
-  - sql.popmintxo.cc:43385
-  - 212.227.144.37:8443
-  - 51.79.85.185:8118
-  - 138.199.42.68:8080
-  - 82.38.31.61:8080
-  - 193.108.119.15:443
-  - 82.38.31.174:443
-  - 66.163.118.166:443
-  - 202.50.253.27:19999
-  - 165.215.250.14:443
-  - 202.50.253.99:19999
-  - 82.38.31.171:8080
-  - 185.114.72.31:2053
-  - 202.50.253.81:19999
-  - 202.50.253.45:19999
-  - 185.230.230.18:19999
-  - 82.38.31.159:443
-  - 51.222.155.32:5003
-  - 149.22.87.204:443
-  - 15.204.233.41:8882
-  - 82.38.31.170:443
-  - 156.146.38.170:443
-  - 202.50.253.72:19999
-  - 45.87.41.18:443
-  - ams1.rvpn.app:8388
-  - 51.222.136.236:8882
-  - 172.67.203.46:443
-  - 66.163.112.13:443
-  - 82.110.60.9:19999
-  - 104.17.121.71:443
-  - 104.16.223.61:443
-  - 185.255.179.166:443
-  - 141.164.45.187:6697
-  - 54.36.174.134:443
-  - 146.70.61.37:8080
-  - 193.29.139.235:8080
-  - 51.83.192.80:8388
-  - 202.50.253.18:19999
-  - ♻️ 自动选择
-  - 216.152.155.23:443
-  - 216.152.156.42:443
-  - 104.19.229.21:443
-  - 🔰 节点选择
-  - 141.101.115.104:443
-  - 193.151.160.9:19999
-  - 193.151.160.18:19999
-  - 66.163.114.166:443
-  - 141.98.101.181:443
-  - 51.79.64.198:8119
-  - youneed.win 4
-  - 178.253.16.185:8388
-  - 185.18.250.252:443
-  - 185.164.175.81:19999
-  - 216.152.156.212:443
-  - youneed.win
-  - 82.38.31.49:8080
-  - 162.159.91.211:443
-  - 82.38.31.2:8080
-  - 216.152.155.176:443
-  - youneed.win 3
-  - 172.66.40.99:443
-  - en001.zestapp778.com:29813
-  - 64.176.163.182:443
-  - 185.213.23.63:990
-  - 193.151.163.18:19999
-  - 84.247.155.196:80
-  - 95.215.201.18:19999
-  - 185.176.204.18:19999
-  - 185.22.155.121:18443
-  - 104.19.64.105:443
-  - msk2.rvpn.app:8388
-  - 82.38.31.174:8080
-  - 159.194.251.76:8388
-  - 51.222.155.113:5601
-  - 141.193.213.172:443
-  - 156.146.38.169:443
-  - 202.50.253.90:19999
-  - 66.163.114.132:443
-  - 🎯 全球直连
-  - 84.247.155.196:443
-  - youneed.win 5
-  - 82.38.31.155:8080
-  - 94.156.250.148:7001
-  - 82.38.31.16:8080
-  - 45.86.51.18:19999
-  - 51.222.141.125:445
-  - 102.133.165.160:16233
-  - 176.114.95.242:443
-  - youneed.win 6
-  - 202.50.253.63:19999
-  - 185.225.68.232:443
-  - 82.38.31.157:8080
-  - 51.222.200.165:5000
-  - 185.176.206.9:19999
-  - 51.222.12.127:445
-  - 68.183.227.4:8080
-  - 185.220.100.168:443
-  - pol.rvpn.app:8388
-  - 104.18.45.38:443
-  - 66.23.203.21:59689
-  - 216.152.155.158:443
-  - 82.38.31.46:8080
-  - 102.37.156.224:443
-  - 45.130.125.160:443
-  - 66.163.118.244:443
-  - 82.38.31.66:8080
-  - 66.163.114.114:443
-  - 54.36.174.140:443
-  - 154.36.158.197:8388
+  - youneed.win 19
+  - 82.38.31.212:8080
+  - youneed.win 18
+  - 82.38.31.198:8080
   - 45.63.30.142:443
-  - 149.22.87.240:443
+  - 198.41.216.1:443
+  - 216.152.155.54:443
+  - 216.152.155.176:443
+  - 84.247.155.196:443
+  - 82.38.31.192:8080
+  - 89.36.137.173:443
+  - 185.230.230.18:19999
+  - 82.38.31.204:8080
+  - 202.50.253.36:19999
+  - 82.38.31.181:8080
+  - 193.29.139.168:8080
+  - 103.149.182.79:8388
+  - 82.38.31.203:8080
+  - 37.19.198.236:443
+  - 216.238.104.154:443
+  - 82.38.31.205:8080
+  - 216.152.155.158:443 2
+  - youneed.win 9
+  - 68.183.227.4:8080
+  - 193.151.163.18:19999
+  - 82.38.31.18:8080
+  - 15.204.233.41:8882
+  - 82.38.31.193:8080
   - 82.38.31.149:8080
-  - in002.zestapp778.com:42733
+  - 202.50.253.45:19999
+  - 82.38.31.176:8080
+  - 104.16.240.177:443
+  - 70.34.212.124:8388
+  - 54.36.174.134:443
+  - 66.163.118.244:443
+  - 178.104.197.49:2053
+  - 141.164.45.187:6697
+  - 52.194.44.56:443
+  - 198.98.53.130:443
+  - 179.255.126.253:443
+  - 82.38.31.2:8080
+  - 82.38.31.179:8080
+  - 82.38.31.62:8080
+  - in002.zestapp778.com:42733 2
+  - 202.61.226.121:8443
+  - 172.67.203.46:443
+  - youneed.win 10
+  - 45.86.51.18:19999
+  - 104.18.45.38:443
+  - 179.255.132.69:443
+  - youneed.win 20
+  - 211.178.105.134:6123
+  - 104.19.229.21:443
+  - 179.255.111.93:443
+  - 104.17.121.71:443
+  - 104.253.216.227:49917
+  - 179.255.115.22:443
+  - youneed.win 17
+  - 51.222.155.113:5601
+  - 🔰 节点选择
+  - youneed.win 4
+  - 45.130.125.160:443
+  - 66.163.112.31:443
+  - 51.222.12.127:445
+  - p141.panda001.net:4652
+  - 66.163.118.166:443
+  - blog.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 193.29.139.151:8080
+  - 193.151.160.18:19999
+  - 77.221.139.114:443
+  - 188.255.156.209:443
+  - 109.201.152.181:443
+  - 69.164.240.85:50875
+  - 82.38.31.171:8080
+  - 185.164.175.81:19999
+  - 104.18.12.149:443
+  - 185.220.100.168:443
+  - 185.213.23.63:990
+  - 82.38.31.202:8080
+  - 141.98.101.181:443
+  - 149.22.87.204:443
+  - 194.114.138.162:443
+  - 82.38.31.170:443
+  - 156.146.38.168:443
+  - 193.108.119.96:443
+  - 82.38.31.49:8080
+  - 212.2.227.187:443
+  - 45.87.41.18:443
+  - 82.38.31.16:8080
+  - 82.38.31.162:443
+  - en001.zestapp778.com:29813 2
+  - 23.246.154.144:443
+  - youneed.win 7
+  - 173.244.56.9:443
+  - 193.29.139.223:8080
+  - 82.38.31.10:8080
+  - 51.75.118.5:20222
+  - 82.38.31.34:8080
+  - www.calmlunch.com:443
+  - 82.26.198.25:443
+  - youneed.win 6
+  - 216.152.147.48:443
+  - 208.68.180.204:443
+  - 188.226.181.61:443
+  - 82.38.31.214:8080
+  - 156.146.38.170:443
+  - 82.38.31.174:443
+  - 202.50.253.18:19999
+  - youneed.win 14
+  - ♻️ 自动选择
+  - en001.zestapp778.com:29813
+  - bogging-eyeteeth-fly.freesocks.work:443
+  - pl140.vpnbook.com:443
+  - 202.50.253.81:19999
+  - 179.255.99.31:443
+  - 82.38.31.215:8080
+  - 38.54.59.102:443
+  - 82.38.31.159:443
+  - 82.38.31.3:8080
+  - 130.49.189.158:43558
+  - 172.66.40.99:443
+  - 82.38.31.187:8080
+  - 66.163.114.166:443
+  - 130.12.46.156:443
+  - 82.38.31.206:8080
+  - 193.29.139.212:8080
+  - 64.177.90.30:8388
+  - 37.19.198.160:443
   - 202.50.253.54:19999
-  - 51.79.49.116:8882
-  - pl134.vpnbook.com:443
-  - 64.176.163.182:443 2
+  - 64.176.163.182:443
+  - 45.207.207.25:443
+  - 216.152.156.212:443
+  - 82.38.31.39:8080
+  - 149.22.87.241:443
+  - 54.36.174.140:443
+  - 173.244.56.6:443
+  - youneed.win 5
+  - 216.152.147.74:443
+  - 193.29.139.197:8080
+  - 172.64.151.20:443
+  - 82.38.31.191:8080
+  - 15.204.247.175:8008
+  - 202.50.253.63:19999
+  - 93.85.236.9:443
+  - 216.238.80.100:443
+  - staging.lastilhame.monster:49917
+  - 82.38.31.61:8080
   - youneed.win 2
+  - 185.225.68.232:443
+  - 15.204.247.244:4444
+  - 37.19.198.244:443
+  - 102.37.156.224:443
+  - 82.38.31.208:8080
+  - 82.110.60.9:19999
+  - 141.98.233.6:443
+  - 141.101.115.104:443
+  - resources.findlocaljobnetworkandbuildcommunityconnections.com:443
+  - 82.38.31.47:8080
+  - 51.222.136.236:8882
+  - 216.152.155.158:443
+  - 202.50.253.72:19999
+  - youneed.win 15
+  - 57.129.113.16:8388
+  - 82.38.31.46:8080
+  - 82.38.31.194:8080
+  - 194.135.119.82:2053
+  - 78.40.209.33:443
+  - 82.38.31.48:8080
+  - 216.152.155.23:443
+  - youneed.win
+  - 185.114.72.31:8443
+  - 82.38.31.165:443
+  - 179.255.127.92:443
+  - 82.38.31.189:8080
+  - 82.38.31.184:8080
+  - 216.152.147.89:443
+  - 149.22.87.240:443
+  - 104.239.12.81:43385
+  - 154.36.158.197:8388
+  - 202.50.253.90:19999
+  - youneed.win 16
+  - 216.152.156.42:443
+  - 193.108.119.78:443
+  - 66.163.122.113:443
+  - 82.38.31.190:8080
+  - 15.204.247.206:4444
+  - 156.146.38.169:443
+  - 82.38.31.218:8080
+  - 185.22.155.121:18443
+  - youneed.win 13
+  - 66.163.118.251:443
+  - 82.38.31.42:8080
+  - 51.222.141.125:445
+  - 37.19.198.243:443
+  - 216.105.168.18:443
+  - 161.35.192.122:443
+  - 178.83.185.156:8080
+  - 156.146.38.167:443
+  - 172.64.153.224:443
+  - 82.38.31.180:8080
+  - 108.162.194.134:443
+  - 141.193.213.172:443
+  - 141.164.45.187:7001
+  - 141.164.45.187:8888
+  - in002.zestapp778.com:42733
+  - 172.104.81.253:443
+  - 102.133.165.160:16233
+  - 185.18.250.252:443
+  - 51.222.155.32:5003
+  - 179.255.127.209:443
+  - 179.255.136.143:443
+  - 185.255.179.166:443
+  - 51.83.192.80:8388
+  - 185.215.132.9:19999
+  - 185.176.204.18:19999
+  - 82.38.31.66:8080
+  - 82.38.31.26:8080
+  - youneed.win 12
+  - 202.50.253.99:19999
+  - 93.86.12.49:443
+  - 165.215.250.14:443
+  - 51.222.200.165:5000
+  - youneed.win 8
+  - 66.163.122.7:443
+  - us001.zestapp778.com:57277
+  - 153.56.171.216:443
+  - 82.38.31.35:8080
+  - 158.173.20.208:443
+  - 66.163.114.114:443
+  - 185.176.206.9:19999
+  - 82.38.31.200:8080
+  - 🎯 全球直连
+  - 146.70.61.37:8080
+  - 82.38.31.210:8080
+  - 84.247.155.196:80
+  - 193.108.119.15:443 2
+  - 179.253.241.115:443
+  - 82.38.31.207:8080
+  - 82.38.31.156:8080
+  - 91.196.32.217:443
+  - 154.46.31.106:443
+  - 216.152.156.65:443
+  - 185.82.218.224:443
+  - 193.29.139.147:8080
+  - sql.popmintxo.cc:43385
+  - 193.29.139.235:8080
+  - 51.79.64.198:8119
+  - youneed.win 11
+  - 193.29.139.204:8080
+  - 170.101.101.19:443
+  - 216.152.156.81:443
+  - 202.50.55.76:443
+  - 104.16.223.61:443
+  - 149.104.109.252:8882
+  - pl134.vpnbook.com:443
+  - 173.242.51.189:443
+  - 82.38.31.217:8080
+  - 149.22.95.183:443
+  - 51.79.49.116:8882
+  - 193.108.119.193:443
+  - 94.156.250.148:7001
+  - 35.241.172.224:443
+  - 51.79.85.185:8118
+  - 66.163.112.13:443
+  - 82.38.31.186:8080
+  - 193.108.119.15:443
+  - 82.38.31.216:8080
+  - 82.38.31.219:8080
+  - 193.29.139.179:8080
+  - 138.199.42.68:8080
+  - 172.67.74.177:443
+  - 66.163.118.166:443 2
+  - 179.255.102.54:443
+  - 95.215.201.18:19999
+  - 66.163.112.121:443
+  - 185.114.72.31:2053
+  - 82.38.31.155:8080
+  - 66.23.203.21:59689
+  - youneed.win 3
+  - 82.38.31.157:8080
+  - 202.50.253.27:19999
+  - 66.163.114.132:443
+  - 162.159.91.211:443
+  - 82.38.31.174:8080
+  - 193.151.160.9:19999
+  - 66.163.122.7:443 2
+  - 139.84.166.47:8388
+  - 104.19.64.105:443
+  - www.777061.xyz:18603
+  - 82.38.31.199:8080
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
